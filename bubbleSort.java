@@ -11,7 +11,7 @@ public class bubbleSort {
     // Number of comparisons in each step n-i
     // Total number of comparisons n(n-1)/2
 
-    public static void bubbleSort(int arr[]){
+    public static void BubbleSort(int arr[]){
         for(int i=0;i<arr.length;i++){
             for(int j=0;j< arr.length-i-1;j++){
                 if(arr[j]>arr[j+1]){

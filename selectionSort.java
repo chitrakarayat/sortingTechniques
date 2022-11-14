@@ -8,7 +8,7 @@ public class selectionSort {
     // Time Complexity O(n^2)
     // Number of iterations in each step n-i
 
-    public static void selectionSort(int arr[]){
+    public static void SelectionSort(int arr[]){
         for (int i=0;i<arr.length -1;i++){
             int min=i;
             for (int j=i+1;j<arr.length;j++){
